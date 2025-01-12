@@ -80,7 +80,7 @@ public class Settings {
         private boolean StackAmount = true;
 
         private boolean Durability = true;
-        private boolean BreakElytra = true;
+        private boolean BrokenElytra = true;
 
         private boolean Enchantments = true;
     }
