@@ -120,7 +120,7 @@ spoof:
         enabled: true
 
         # If enabled, elytra durability spoofing will be disabled when the elytra's durability is 1 or less.
-        break-elytra:
+        broken-elytra:
           enabled: true
 
       # If enabled, hides the enchantments of other players items (e.g., tools, armor).
