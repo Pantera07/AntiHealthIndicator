@@ -120,7 +120,7 @@ public class EntityEquipmentListener<P> extends PacketListenerAbstract {
             equipment.setItem(itemStack);
         }
 
-        if (settings.getItems().isDurability() && itemStack.isDamageableItem() & itemStack.getDamageValue() > 0) {
+        if (settings.getItems().isDurability() && itemStack.isDamageableItem() && itemStack.getDamageValue() > 0) {
             // Prevent a broken elytra from being spoofed
             if (!settings.getItems().isBrokenElytra() || itemStack.getType() != ItemTypes.ELYTRA ||
                 (equipment.getSlot() != EquipmentSlot.MAIN_HAND && equipment.getSlot() != EquipmentSlot.OFF_HAND && equipment.getSlot() != EquipmentSlot.HELMET) ||
